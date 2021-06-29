@@ -1,0 +1,7 @@
+{
+    "description": "Sming Framework for Espressif",
+    "name": "framework-sming",
+    "system": "*",
+    "url": "...",
+    "version": "1.1.0"
+}

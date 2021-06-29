@@ -3,7 +3,7 @@
     "name": "framework-sming",
     "system": "*",
     "url": "...",
-    "version": "1.1.0"
+    "version": "1.1.0",
     "build": {
         "includeDir": ".",
         "srcDir": ".",

@@ -15,7 +15,7 @@ jobs:
       - name: Setup Ninja
         uses: seanmiddleditch/gha-setup-ninja@master
 
-    	- name: Run Build Documentation Script
+      - name: Run Build Documentation Script
         run: |
           chmod +x ./test-build-examples.sh
           ./build-doc.sh

@@ -5,9 +5,9 @@ einfo() {
 }
 
 einfo 'Checking job number...'
-[ "${GITHUB_RUN_NUMBER}" = "1" ] || {
+[ "${GITHUB_RUN_ATTEMPT}" = "1" ] || {
     einfo 'This is not the first job.'
-    einfo "Current job number is: ${GITHUB_RUN_NUMBER}"
+    einfo "Current job number is: ${GITHUB_RUN_ATTEMPT}"
     einfo 'Exiting...'
     exit 0
 }

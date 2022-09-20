@@ -6,7 +6,7 @@ on:
 env:
   DOXYFILE: ${{github.workspace}}/Doxyfile
   HTML_DIR: ${{github.workspace}}/doc/html
-;
+
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -20,7 +20,7 @@ jobs:
       - name: Setup Ninja
         uses: seanmiddleditch/gha-setup-ninja@master
 
-    	- name: Install doxygen
+      - name: Install doxygen
         run: |
           sudo apt-get install doxygen -y
           sudo apt install graphviz -y
